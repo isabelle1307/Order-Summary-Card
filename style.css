@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.attribution{
+    bottom:0;
+    position: absolute;
+    
+}
+
+.container{
+    background-color: white;
+    
+    max-width: 450px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 17px;
+     
+    
+}
+
+h2{
+    font-size: 16px;
+}
+p{
+    color: gray;
+}
+.card{
+    padding: 12%;
+    padding: 17px 22px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img image{
+    width: 100%;
+}
+
+.annual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 17px;
+    padding: 5px 12px;
+}
+
+button {
+    font-size: 15px;
+    width: 100%;
+    padding: 17px;
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.pay{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    
+}
+
+.cancel{
+    color: gray;
+    background-color: white;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.posi{
+    padding: auto;
+    margin:12px;
+}
+ 
+.text{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
